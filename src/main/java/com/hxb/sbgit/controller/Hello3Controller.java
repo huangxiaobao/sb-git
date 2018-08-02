@@ -8,4 +8,5 @@ package com.hxb.sbgit.controller;
  * @version 1.0
  */
 public class Hello3Controller {
+    private String name="张华23123";
 }
