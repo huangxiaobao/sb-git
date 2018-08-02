@@ -17,6 +17,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class Hello2Controller {
     @RequestMapping(value = "/say/{name}",method = RequestMethod.GET)
     public Object say(@PathVariable String name){
-        return "hello2 "+name;
+        return "hello2 "+name+"hahha";
     }
 }
